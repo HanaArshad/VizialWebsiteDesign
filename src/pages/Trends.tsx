@@ -349,9 +349,9 @@ const Trends: FunctionComponent<TrendsType> = ({ onClose }) => {
                 <div className={styles.averageAcrossPubs}>
                   Average across pubs
                 </div>
-                <div className={styles.irishPub}>Irish Pub</div>
+                <div className={styles.irishPub}>Market Tarern</div>
                 <div className={styles.benchLineSingapore}>
-                  Bench line (Singapore)
+                  Bench line (Wellington)
                 </div>
               </div>
               <div className={styles.actualgraphLinegraphTrends}>
