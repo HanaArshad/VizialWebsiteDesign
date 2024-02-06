@@ -1,0 +1,20 @@
+/* SearchBar.module.css */
+
+  .container {
+    /* Add any styles specific to the container div here */
+  }
+  
+  .Spacer {
+    /* Add any styles specific to the Spacer div here */
+  }
+  
+  .sInput {
+    height: 47px; /* Adjust the height as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    width: 150px;
+    
+  
+    /* Add any other styles for the input element here */
+  }
+  /* Add any other styles for your SearchBar as needed */
+  

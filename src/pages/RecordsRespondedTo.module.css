@@ -1,0 +1,975 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.totalwarningp2Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.totalwarningp2Item {
+  position: absolute;
+  height: 0.22%;
+  width: 99.69%;
+  top: 15.99%;
+  right: 0.45%;
+  bottom: 83.8%;
+  left: -0.14%;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.hearder,
+.totalwarningp2 {
+  position: absolute;
+  height: 55.41%;
+  width: 27.89%;
+  top: 32.93%;
+  right: 1.33%;
+  bottom: 11.66%;
+  left: 70.78%;
+}
+.hearder {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-slateblue-200);
+}
+.logoIcon {
+  height: 94.38%;
+  width: 15.63%;
+  top: 0;
+  right: 84.38%;
+  bottom: 5.62%;
+  left: 0;
+  object-fit: cover;
+}
+.logoIcon,
+.notificationpopupReportincideIcon,
+.vectorIcon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.notificationpopupReportincideIcon {
+  height: 58.43%;
+  width: 3.59%;
+  top: 25.84%;
+  right: 11.72%;
+  bottom: 15.73%;
+  left: 84.69%;
+  cursor: pointer;
+}
+.vectorIcon {
+  height: 36.27%;
+  width: 36.27%;
+  top: 18.24%;
+  right: 31.96%;
+  bottom: 45.49%;
+  left: 31.76%;
+}
+.group,
+.vectorIcon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.vectorIcon1 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.profilepopReportincidents,
+.vectorIcon2 {
+  position: absolute;
+  height: 57.3%;
+  width: 3.98%;
+  top: 25.84%;
+  right: 4.14%;
+  bottom: 16.85%;
+  left: 91.88%;
+}
+.vectorIcon2 {
+  right: 18.52%;
+  left: 77.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.sidebarReportIncidents,
+.topBarReportincidents {
+  position: absolute;
+  height: 10.7%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 89.3%;
+  left: 0;
+}
+.sidebarReportIncidents {
+  height: 100%;
+  bottom: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-right: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logOut {
+  position: absolute;
+  height: 43.75%;
+  width: 44.19%;
+  top: 56.25%;
+  left: 46.59%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.groupIcon {
+  position: absolute;
+  height: 50%;
+  width: 15.05%;
+  top: 43.75%;
+  right: 65.49%;
+  bottom: 6.25%;
+  left: 19.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logoutReportIncidentsChild {
+  position: absolute;
+  height: 1.25%;
+  width: 100.51%;
+  top: -0.62%;
+  right: -0.26%;
+  bottom: 99.38%;
+  left: -0.26%;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logoutReportIncidents {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 10.77%;
+  width: 97.07%;
+  top: 87.08%;
+  right: 1.44%;
+  bottom: 2.15%;
+  left: 1.49%;
+}
+.allelementssidebarReportInciChild {
+  position: absolute;
+  top: 431px;
+  left: 0;
+  background-color: var(--color-slateblue-200);
+  width: 201.2px;
+  height: 99px;
+}
+.trends {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.trendsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 63.69%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 36.31%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.imageStatisticsIcon {
+  position: absolute;
+  height: 62.12%;
+  width: 27.59%;
+  top: 10.61%;
+  right: 72.41%;
+  bottom: 27.27%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.statisticsReportIncidents,
+.warningsWrapper {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.statisticsReportIncidents {
+  padding: 0;
+  height: 8.88%;
+  width: 73.51%;
+  top: 46.57%;
+  right: 9.59%;
+  bottom: 44.55%;
+  left: 16.9%;
+}
+.warningsWrapper {
+  padding: var(--padding-3xs);
+  height: 81.13%;
+  width: 62.09%;
+  top: 18.87%;
+  right: 0;
+  bottom: 0;
+  left: 37.91%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.vectorIcon3 {
+  position: absolute;
+  height: 86.79%;
+  width: 33.54%;
+  top: 0;
+  right: 66.46%;
+  bottom: 13.21%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.warningsStatistics {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.13%;
+  width: 78.53%;
+  top: 33.24%;
+  right: 4.72%;
+  bottom: 59.62%;
+  left: 16.75%;
+}
+.maps {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.mapsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 76.79%;
+  width: 55.32%;
+  top: 23.21%;
+  right: 0;
+  bottom: 0;
+  left: 44.68%;
+}
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  position: absolute;
+  height: 71.07%;
+  width: 20.54%;
+  top: 0;
+  right: 70.95%;
+  bottom: 28.93%;
+  left: 8.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon5,
+.vectorIcon6 {
+  height: 12.14%;
+  width: 5.72%;
+  top: 16.25%;
+  right: 78.36%;
+  bottom: 71.61%;
+  left: 15.92%;
+}
+.vectorIcon6 {
+  height: 55.36%;
+  width: 36.9%;
+  top: 35.71%;
+  right: 63.1%;
+  bottom: 8.93%;
+  left: 0;
+}
+.mapsStatistics {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.54%;
+  width: 67.74%;
+  top: 19.52%;
+  right: 15.26%;
+  bottom: 72.95%;
+  left: 17%;
+}
+.home {
+  position: absolute;
+  height: 72.92%;
+  width: 58.63%;
+  top: 27.08%;
+  left: 41.3%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  cursor: default;
+}
+.homeImageStatisticsIcon {
+  position: absolute;
+  height: 95.83%;
+  width: 30.64%;
+  top: 0;
+  right: 69.36%;
+  bottom: 4.17%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.homeReportIncidents {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.46%;
+  width: 73.16%;
+  top: 4.58%;
+  right: 10.09%;
+  bottom: 88.96%;
+  left: 16.75%;
+}
+.recordsimageIcon {
+  position: absolute;
+  height: 100%;
+  width: 37.06%;
+  top: 0;
+  right: 62.94%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.records {
+  position: absolute;
+  top: 11px;
+  left: 76px;
+}
+.recordsRecords,
+.vectorIcon7 {
+  position: absolute;
+  height: 6.19%;
+  width: 71.07%;
+  top: 62.05%;
+  right: 12.52%;
+  bottom: 31.76%;
+  left: 16.4%;
+}
+.vectorIcon7 {
+  height: 100%;
+  width: 32.84%;
+  top: 0;
+  right: 67.16%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.policies {
+  position: absolute;
+  top: 8px;
+  left: 72px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.policyRecords {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.19%;
+  width: 66.6%;
+  top: 76.45%;
+  right: 14.02%;
+  bottom: 17.36%;
+  left: 19.38%;
+}
+.allelementssidebarReportInci {
+  position: absolute;
+  height: 89.3%;
+  width: 15.72%;
+  top: 10.94%;
+  right: 84.28%;
+  bottom: -0.24%;
+  left: 0;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-paprika);
+}
+.reportBoxReportincidence {
+  position: absolute;
+  height: 91.38%;
+  width: 100%;
+  top: 8.62%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.statisticsReport {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+   
+}
+.statisticsReport1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  font-size: 19px;
+}
+.staristicsreportReportinciden {
+  position: absolute;
+  height: 4.74%;
+  width: 22.71%;
+  top: 12.22%;
+  right: 73.47%;
+  bottom: 83.04%;
+  left: 3.82%;
+}
+.staristicsreportReportinciden1 {
+  position: absolute;
+  height: 7.11%;
+  width: 54.39%;
+  top: 0;
+  right: 43.18%;
+  bottom: 92.89%;
+  left: 2.42%;
+  font-size: var(--font-size-13xl);
+}
+.level3 {
+  position: relative;
+  color: var(--color-firebrick-100);
+  
+   /* Adjust the value as needed */
+
+}
+.level43 {
+  position: relative;
+  color: var(--color-firebrick-100);
+ 
+   /* Adjust the value as needed */
+
+}
+.span {
+  color: var(--color-olivedrab);
+
+     /* Adjust the value as needed */
+  
+  }
+     /* Adjust the value as needed */
+
+.level3ThomasSt {
+  margin: 0;
+  position: relative;
+    font-family: var(--font-inika);
+    font-size: var(--font-size-base);
+   
+    
+  }
+
+.level1ThomasContainer,
+.level3ThomasContainer,
+.level3ThomasContainer1 {
+  position: absolute;
+  top: 0;
+  left: 1.5px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 687.5px;
+  height: 29px;
+}
+.level1ThomasContainer,
+.level3ThomasContainer1 {
+  top: 315px;
+}
+.level1ThomasContainer {
+  top: 455px;
+}
+.level2 {
+  color: var(--color-goldenrod);
+}
+.level1ThomasContainer1,
+.level2ThomasContainer {
+  position: absolute;
+  top: 420px;
+  left: 0;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 687.5px;
+  height: 29px;
+}
+.level1ThomasContainer1 {
+  top: 385px;
+  left: 1.5px;
+}
+.level1ThomasContainer2,
+.level1ThomasContainer3,
+.level1ThomasContainer4,
+.level2ThomasContainer1,
+.level3ThomasContainer2 {
+  position: absolute;
+  top: 350px;
+  left: 1.5px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 687.5px;
+  height: 29px;
+}
+.level1ThomasContainer2,
+.level1ThomasContainer3,
+.level1ThomasContainer4,
+.level2ThomasContainer1 {
+  top: 280px;
+}
+.level1ThomasContainer3,
+.level1ThomasContainer4,
+.level2ThomasContainer1 {
+  top: 245px;
+  left: 0;
+}
+.level1ThomasContainer3,
+.level1ThomasContainer4 {
+  top: 210px;
+  left: 1.5px;
+}
+.level1ThomasContainer4 {
+  top: 175px;
+  left: 0;
+}
+.level1ThomasContainer5,
+.level2ThomasContainer2,
+.level2ThomasContainer3,
+.level3ThomasContainer3 {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 687.5px;
+  height: 29px;
+}
+.level1ThomasContainer5,
+.level2ThomasContainer3,
+.level3ThomasContainer3 {
+  top: 105px;
+}
+.level2ThomasContainer3,
+.level3ThomasContainer3 {
+  top: 70px;
+  left: 1.5px;
+}
+.level2ThomasContainer3 {
+  top: 35px;
+}
+.warningsReportincidents {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 689px;
+  height: 484px;
+}
+.scrollReportincidents,
+.wrapper {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+}
+.scrollReportincidents {
+  height: 66.26%;
+  top: 22.54%;
+
+  bottom: 11.2%;
+  left: 1.94%;
+  max-height: 90%;
+  overflow: auto;
+  font-size: var(--font-size-mini);
+}
+.scrollReportincidents.animate,
+.wrapper.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-top;
+}
+.wrapper {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.calendarStatistics {
+  position: absolute;
+  height: 5.75%;
+  width: 19.06%;
+  top: 11.54%;
+  right: 54.41%;
+  bottom: 82.71%;
+  left: 26.53%;
+}
+.groupChild {
+  position: absolute;
+  top: 138.4px;
+  left: 0;
+  max-height: 100%;
+  width: 660px;
+}
+.reportBoxReportincidenceParent {
+  position: absolute;
+  height: 79.45%;
+  width: 51.56%;
+  top: 18.15%;
+  right: 30.31%;
+  bottom: 2.4%;
+  left: 18.13%;
+  font-size: var(--font-size-lg);
+}
+.groupItem,
+.headerReportincidents {
+  position: absolute;
+  height: 3.25%;
+  width: 6.02%;
+  top: 27.76%;
+  right: 49.61%;
+  bottom: 68.99%;
+  left: 44.38%;
+}
+.groupItem {
+  cursor: pointer;
+  border: 2px solid var(--color-slateblue-200);
+  padding: 0;
+  background-color: var(--color-white);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+}
+
+.warningsReportincidents1 {
+  margin: 0;
+  position: absolute;
+  top: 615px;
+  left: 919px;
+  width: 283px;
+  height: 50px;
+  font-size: var(--font-size-mini);
+}
+.recordsRespondedTo {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-inika);
+}
+
+.vectorIcon4 {
+  width: 50px; 
+  left: -1px;
+  height: 100px;
+}
+.searchBar {
+  position: absolute;
+  top: 11%;
+  left: 25.58%;
+ 
+}
+
+.placesParent {
+  width: 158px;
+  top: 220px;
+  left: 660px;
+}
+
+.level3Thomas1{
+  position: absolute;
+  left: 5px;
+  font-size: var(--font-size-base);
+  top: 240px;
+}
+
+.level3ThomasSt1{
+  margin-top: -5px;
+  font-size: 15px;
+ 
+}
+
+.level3ThomasSt1 .increaseText::before {
+  content: "\00a0\00a0\00a0"; /* Add more non-breaking spaces as needed */
+}
+
+
+/* Updated CSS with new class names */
+
+.newArrowUpLine {
+  position: absolute;
+  top: 37px;
+  left: 148px;
+  width: 24px;
+  height: 23.6px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.newArrowUpLine1,
+.newVectorIcon,
+.newVectorIcon1 {
+  position: absolute;
+  top: 100px;
+  left: 115px;
+  width: 24px;
+  height: 23.6px;
+  overflow: hidden;
+}
+
+.newVectorIcon,
+.newVectorIcon21 {
+  height: 6%; /* Increase the height value */
+  width: 10%;  /* Increase the width value */
+  top: 45%;  /* Adjust the positioning as needed */
+
+
+  left: 38.5%;
+  max-width: 160%;
+  max-height: 100%;
+}
+
+.newVectorIcon1 {
+  height: 10.68%;
+  width: 15.37%;
+  top: 86.85%;
+  right: 87.23%;
+  bottom: 2.47%;
+  left: 2.39%;
+}
+
+.newDownload,
+.newSend {
+  position: absolute;
+  top: 323px;
+  left: 66px;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  width: 133px;
+  height: 40px;
+}
+
+.newSend {
+  top: 325px;
+  left: 243px;
+}
+
+.newVectorIcon2 {
+  position: absolute;
+  height: 7.95%;
+  width: 11.17%;
+  top: 88.49%;
+  right: 36.97%;
+  bottom: 3.56%;
+  left: 51.86%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.newLevel3 {
+  color: var(--color-firebrick-100);
+}
+
+.newSpan {
+  color: var(--color-olivedrab);
+}
+
+.newLevel3IrishPub {
+  margin: 0;
+}
+
+.newLevel3Container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 283px;
+  height: 17.1px;
+}
+
+.newWarningsReportIncidents,
+.newWarningsReportIncidents1 {
+  margin: 0;
+  position: absolute;
+  top: 253px;
+  left: 1px;
+  width: 283px;
+  height: 17.1px;
+  font-size: var(--font-size-mini);
+}
+
+.newWarningsReportIncidents1 {
+  top: 279px;
+}
+
+.newThisMonth {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  font-size: 20px;
+  display: inline-block;
+  width: 126px;
+  height: 29px;
+}
+
+.newTotalIncidentsContainer {
+  position: absolute;
+  top: 37px;
+  left: 0;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 326px;
+  height: 41px;
+}
+
+.newPedestrianTraffic {
+  font-family: var(--font-inika);
+}
+
+.newPedestrianTrafficContainer {
+  top: 164px;
+  left: 2px;
+  white-space: pre-wrap;
+  width: 326px;
+  height: 41px;
+}
+
+.newIncidents,
+.newNoArrestsContainer,
+.newPedestrianTrafficContainer {
+  position: absolute;
+  display: inline-block;
+}
+
+.newNoArrestsContainer {
+  top: 100px;
+  left: 5px;
+  white-space: pre-wrap;
+  width: 326px;
+  height: 41px;
+}
+
+.newIncidents {
+  top: 220px;
+  left: 2px;
+  width: 86px;
+  height: 25px;
+}
+
+.newArrowLineParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 376px;
+  height: 365px;
+}
+
+.newGroupParent {
+  width: 100%;
+  position: relative;
+  height: 365px;
+  left: 940px;
+  top:310px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inika);
+}
+
+.summaryTitle{
+  font-size: 13px;
+  margin-top: -70px;
+
+}

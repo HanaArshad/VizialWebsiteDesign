@@ -1,0 +1,1536 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.topbarMapp2Level3Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-slateblue-200);
+}
+.groupIcon,
+.screenshot202311271652466,
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.screenshot202311271652466 {
+  height: 94.38%;
+  width: 15.63%;
+  top: 0;
+  right: 84.38%;
+  bottom: 5.62%;
+  left: 0;
+  object-fit: cover;
+}
+.groupIcon,
+.vectorIcon,
+.vectorIcon1 {
+  height: 58.43%;
+  width: 3.59%;
+  top: 25.84%;
+  right: 11.72%;
+  bottom: 15.73%;
+  left: 84.69%;
+  cursor: pointer;
+}
+.groupIcon,
+.vectorIcon1 {
+  height: 57.3%;
+  width: 3.98%;
+  right: 4.14%;
+  bottom: 16.85%;
+  left: 91.88%;
+}
+.vectorIcon1 {
+  right: 18.52%;
+  left: 77.5%;
+}
+.sidebarMapp2L3,
+.topbarMapp2Level3 {
+  position: absolute;
+  height: 10.7%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 89.3%;
+  left: 0;
+}
+.sidebarMapp2L3 {
+  height: 100%;
+  bottom: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-right: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logOut {
+  position: absolute;
+  height: 43.75%;
+  width: 44.24%;
+  top: 56.25%;
+  left: 46.38%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.groupIcon1 {
+  position: absolute;
+  height: 50%;
+  width: 15.09%;
+  top: 43.75%;
+  right: 65.55%;
+  bottom: 6.25%;
+  left: 19.37%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logoutMapp2L3Child {
+  position: absolute;
+  height: 1.25%;
+  width: 100.51%;
+  top: -0.62%;
+  right: -0.25%;
+  bottom: 99.38%;
+  left: -0.25%;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logoutMapp2L3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 10.77%;
+  width: 97.03%;
+  top: 87.35%;
+  right: 1.48%;
+  bottom: 1.88%;
+  left: 1.48%;
+}
+.warnings {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.warningsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  position: absolute;
+  height: 81.13%;
+  width: 62.09%;
+  top: 18.87%;
+  right: 0.06%;
+  bottom: 0;
+  left: 37.85%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 86.79%;
+  width: 33.5%;
+  top: 0;
+  right: 66.5%;
+  bottom: 13.21%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.warningsMapp2L3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.13%;
+  width: 78.54%;
+  top: 33.24%;
+  right: 4.7%;
+  bottom: 59.62%;
+  left: 16.77%;
+}
+.home {
+  position: absolute;
+  height: 72.92%;
+  width: 58.69%;
+  top: 27.08%;
+  left: 41.31%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  cursor: default;
+}
+.vectorIcon3 {
+  position: absolute;
+  height: 85.83%;
+  width: 30.7%;
+  top: 0;
+  right: 69.3%;
+  bottom: 4.17%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon34 {
+  position: absolute;
+  height: 75.83%;
+  width: 40.7%;
+  top: -2px;
+  right: 69.3%;
+  bottom: 4.17%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.homeMapp2L3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.46%;
+  width: 73.15%;
+  top: 4.58%;
+  right: 10.09%;
+  bottom: 88.96%;
+  left: 16.77%;
+}
+.recordsimageIcon {
+  position: absolute;
+  height: 100%;
+  width: 37.06%;
+  top: 0;
+  right: 62.94%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.records {
+  position: absolute;
+  top: 23.91%;
+  left: 53.15%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.recordsTrends {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 10.19%;
+  width: 70.72%;
+  top: 62.31%;
+  right: 12.96%;
+  bottom: 31.49%;
+  left: 16.32%;
+}
+.vectorIcon4 {
+  position: absolute;
+  height: 100%;
+  width: 32.84%;
+  top: 0;
+  right: 67.16%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.policies {
+  position: absolute;
+  top: 8px;
+  left: 72px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.policyStatistics {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.19%;
+  width: 66.27%;
+  top: 76.72%;
+  right: 14.44%;
+  bottom: 17.09%;
+  left: 19.29%;
+}
+.allelementssidebarMapp2L3 {
+  position: absolute;
+  height: 89.3%;
+  width: 15.8%;
+  top: 10.7%;
+  right: 84.2%;
+  bottom: 0;
+  left: 0;
+}
+.maps {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.mapsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 76.79%;
+  width: 55.32%;
+  top: 23.21%;
+  right: 0;
+  bottom: 0;
+  left: 44.68%;
+}
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7 {
+  position: absolute;
+  height: 71.07%;
+  width: 20.54%;
+  top: 0;
+  right: 70.95%;
+  bottom: 28.93%;
+  left: 8.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon6,
+.vectorIcon7 {
+  height: 12.14%;
+  width: 5.72%;
+  top: 16.25%;
+  right: 78.36%;
+  bottom: 71.61%;
+  left: 15.92%;
+}
+.vectorIcon7 {
+  height: 55.36%;
+  width: 36.9%;
+  top: 35.71%;
+  right: 63.1%;
+  bottom: 8.93%;
+  left: 0;
+}
+.mapsStatistics {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.73%;
+  width: 10.65%;
+  top: 27.04%;
+  right: 86.62%;
+  bottom: 66.23%;
+  left: 2.73%;
+}
+.trends1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-white);
+  text-align: left;
+}
+.trendsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 61.98%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 38.02%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.groupIcon2 {
+  position: absolute;
+  height: 62.12%;
+  width: 26.83%;
+  top: 21.21%;
+  right: 73.17%;
+  bottom: 16.67%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.statisticsMapp2L3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 66.67%;
+  width: 75.94%;
+  top: 18.18%;
+  right: 2.68%;
+  bottom: 15.15%;
+  left: 21.37%;
+}
+.analysisAnalysis {
+  position: absolute;
+  height: 11.9%;
+  width: 15.72%;
+  top: 48.8%;
+  right: 84.2%;
+  bottom: 39.3%;
+  left: 0.08%;
+}
+.placesParent {
+  position: absolute;
+  top: 104px;
+  left: 232px;
+}
+.bargraphTrendsChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-slateblue-200);
+  box-sizing: border-box;
+}
+.fri,
+.mon,
+.sat,
+.sun,
+.thu,
+.tue,
+.wed {
+  position: absolute;
+  height: 29.34%;
+  width: 9.76%;
+  top: 88.03%;
+  left: 0;
+  display: inline-block;
+  transform: rotate(-89.64deg);
+  transform-origin: 0 0;
+}
+.fri,
+.sat,
+.sun,
+.thu,
+.tue,
+.wed {
+  top: 82.12%;
+  left: 16.37%;
+}
+.fri,
+.sat,
+.sun,
+.thu,
+.wed {
+  top: 99.66%;
+  left: 32.44%;
+}
+.fri,
+.sat,
+.sun,
+.thu {
+  top: 88.03%;
+  left: 48.52%;
+}
+.fri,
+.sat,
+.sun {
+  top: 82.12%;
+  left: 64.29%;
+}
+.sat,
+.sun {
+  left: 80.08%;
+}
+.sun {
+  top: 88.03%;
+  left: 96.43%;
+}
+.xaxisBargraphTrends {
+  position: absolute;
+  height: 15.09%;
+  width: 75.84%;
+  top: 82.67%;
+  right: 6.95%;
+  bottom: 2.24%;
+  left: 17.22%;
+}
+.bargraphTrendsInner,
+.bargraphTrendsItem {
+  position: absolute;
+  bottom: 16.69%;
+  box-sizing: border-box;
+}
+.bargraphTrendsItem {
+  height: 58.17%;
+  width: 0.23%;
+  top: 25.14%;
+  right: 88.83%;
+  left: 10.94%;
+  border-right: 1.5px solid var(--color-lightgray);
+}
+.bargraphTrendsInner {
+  height: 0.38%;
+  width: 88.71%;
+  top: 82.93%;
+  right: 0.29%;
+  left: 11%;
+  border-top: 1.5px solid var(--color-lightgray);
+}
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 66.8px;
+  left: 0;
+  background-color: var(--color-plum);
+  width: 51.9px;
+  height: 146.7px;
+}
+.groupItem {
+  top: 14.4px;
+  left: 480.7px;
+  background-color: var(--color-slateblue-100);
+  height: 199.1px;
+}
+.groupChild1,
+.groupChild2,
+.groupChild3,
+.groupInner,
+.rectangleDiv {
+  position: absolute;
+  top: 33.6px;
+  left: 81px;
+  background-color: var(--color-plum);
+  width: 51.9px;
+  height: 179.9px;
+}
+.groupChild1,
+.groupChild2,
+.groupChild3,
+.rectangleDiv {
+  top: 141.9px;
+  left: 160.9px;
+  height: 71.6px;
+}
+.groupChild1,
+.groupChild2,
+.groupChild3 {
+  top: 14.4px;
+  left: 240.8px;
+  height: 199.1px;
+}
+.groupChild2,
+.groupChild3 {
+  top: 66.8px;
+  left: 320.8px;
+  height: 146.7px;
+}
+.groupChild3 {
+  top: 0;
+  left: 400.7px;
+  background-color: var(--color-slateblue-100);
+  width: 46px;
+  height: 213.1px;
+}
+.barsBargraphTrends,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 532.6px;
+  height: 213.5px;
+}
+.barsBargraphTrends {
+  top: 83px;
+  left: 91px;
+}
+.averageFrequencyOf {
+  margin: 0;
+}
+.averageFrequencyOfContainer,
+.frequency {
+  position: absolute;
+  color: var(--color-black);
+  display: inline-block;
+}
+.averageFrequencyOfContainer {
+  height: 6.23%;
+  width: 66.6%;
+  top: 5.78%;
+  left: 4.74%;
+  font-size: var(--font-size-xl);
+  text-decoration: underline;
+}
+.frequency {
+  height: 5.65%;
+  width: 17.78%;
+  top: 68.5%;
+  left: 1.47%;
+  font-size: var(--font-size-xs);
+  transform: rotate(-90.37deg);
+  transform-origin: 0 0;
+}
+.div,
+.div1,
+.div2,
+.div3,
+.div4,
+.div5 {
+  position: absolute;
+  height: 16.17%;
+  width: 91%;
+  top: 19.12%;
+  left: 2.77%;
+  display: inline-block;
+}
+.div1,
+.div2,
+.div3,
+.div4,
+.div5 {
+  top: 0;
+}
+.div2,
+.div3,
+.div4,
+.div5 {
+  top: 38.23%;
+}
+.div3,
+.div4,
+.div5 {
+  top: 57.35%;
+  left: 0;
+}
+.div4,
+.div5 {
+  top: 73.56%;
+  left: 9%;
+}
+.div5 {
+  height: 8.08%;
+  width: 24.91%;
+  top: 91.92%;
+  left: 8.3%;
+}
+.yaxisLinegraphTrends {
+  position: absolute;
+  height: 60.43%;
+  width: 4.39%;
+  top: 24.45%;
+  right: 88.83%;
+  bottom: 15.11%;
+  left: 6.78%;
+  font-size: var(--font-size-sm);
+}
+.bargraphTrends {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.bargraphTrendsWrapper {
+  position: absolute;
+  height: 65.94%;
+  width: 63.88%;
+  top: 1.85%;
+  right: 33.59%;
+  bottom: 32.21%;
+  left: 2.52%;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-100);
+}
+.barGraphAi {
+  position: absolute;
+  height: 12.75%;
+  width: 47.09%;
+  top: 72.65%;
+  left: 1.26%;
+  text-decoration: underline;
+  display: inline-block;
+}
+.violencePeaksOnContainer {
+  position: absolute;
+  height: 16.95%;
+  width: 94.66%;
+  top: 83.05%;
+  left: 0.97%;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+}
+.vectorIcon8 {
+  position: absolute;
+  height: 2.47%;
+  width: 1.51%;
+  top: 132.21%;
+  right: 87.13%;
+  bottom: -34.68%;
+  left: 11.36%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.linegraphAnalysisChild {
+  position: absolute;
+  height: 100%;
+  width: 98.91%;
+  top: 0;
+  right: 1.09%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-slateblue-200);
+  box-sizing: border-box;
+}
+.dropdownLinegraphTrends {
+  position: absolute;
+  height: 11.14%;
+  width: 12.07%;
+  top: 7.68%;
+  right: 0;
+  bottom: 81.18%;
+  left: 87.93%;
+}
+.monthlyAverageFor {
+  position: absolute;
+  height: 5.98%;
+  width: 47.58%;
+  top: 5.56%;
+  left: 1.83%;
+  font-size: var(--font-size-base);
+  text-decoration: underline;
+  display: inline-block;
+}
+.legendLinegraphTrendsChild,
+.legendLinegraphTrendsInner,
+.legendLinegraphTrendsItem {
+  position: absolute;
+  height: 75.12%;
+  width: 4.59%;
+  top: 14.35%;
+  bottom: 10.53%;
+  border-radius: 50%;
+}
+.legendLinegraphTrendsChild {
+  right: 62.63%;
+  left: 32.77%;
+  background-color: var(--color-slateblue-100);
+}
+.legendLinegraphTrendsInner,
+.legendLinegraphTrendsItem {
+  right: 26.65%;
+  left: 68.76%;
+  background-color: #18a0fb;
+}
+.legendLinegraphTrendsInner {
+  right: 95.41%;
+  left: 0;
+  background-color: #f01717;
+}
+.averageAcrossPubs {
+  left: 39.48%;
+}
+.averageAcrossPubs,
+.benchLineSingapore,
+.irishPub {
+  position: absolute;
+  height: 100%;
+  width: 24.54%;
+  top: 0;
+  display: inline-block;
+}
+.irishPub {
+  left: 6.71%;
+  color: #f91e00;
+}
+.benchLineSingapore {
+  left: 75.43%;
+}
+.legendLinegraphTrends {
+  position: absolute;
+  height: 6.83%;
+  width: 36.87%;
+  top: 6.83%;
+  right: 13.47%;
+  bottom: 86.34%;
+  left: 49.66%;
+  color: var(--color-slateblue-100);
+}
+.frequency1 {
+  position: absolute;
+  height: 6.45%;
+  width: 12.39%;
+  top: 58.08%;
+  left: 0.07%;
+  display: inline-block;
+  transform: rotate(-90.34deg);
+  transform-origin: 0 0;
+}
+.div10,
+.div11,
+.div6,
+.div7,
+.div8,
+.div9 {
+  position: absolute;
+  height: 16.17%;
+  width: 91.13%;
+  top: 19.14%;
+  left: 2.96%;
+  display: inline-block;
+}
+.div10,
+.div11,
+.div7,
+.div8,
+.div9 {
+  top: 0;
+}
+.div10,
+.div11,
+.div8,
+.div9 {
+  top: 38.23%;
+}
+.div10,
+.div11,
+.div9 {
+  top: 57.37%;
+  left: 0;
+}
+.div10,
+.div11 {
+  top: 73.54%;
+  left: 8.87%;
+}
+.div11 {
+  height: 8.09%;
+  width: 24.63%;
+  top: 91.91%;
+  left: 8.37%;
+}
+.yaxisLinegraphTrends1 {
+  position: absolute;
+  height: 75.16%;
+  width: 2.81%;
+  top: 0;
+  right: 93.31%;
+  bottom: 24.84%;
+  left: 3.88%;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.vectorIcon9 {
+  position: absolute;
+  height: 28.19%;
+  width: 92.38%;
+  top: 18.77%;
+  right: 90.71%;
+  bottom: 53.04%;
+  left: -1.0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.actualgraphLinegraphTrendsChild {
+  position: absolute;
+  height: 72.47%;
+  width: 0.21%;
+  top: 3.02%;
+  right: 93.27%;
+  bottom: 24.51%;
+  left: 6.53%;
+  border-right: 1.5px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.actualgraphLinegraphTrendsItem {
+  position: absolute;
+  height: 0.62%;
+  width: 93.58%;
+  top: 74.82%;
+  right: -0.11%;
+  bottom: 24.56%;
+  left: 6.53%;
+  border-top: 1.5px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.solarcursorLinear {
+  position: absolute;
+  width: 3.39%;
+  top: 108.3px;
+  right: 84.14%;
+  left: 12.47%;
+  height: 29.4px;
+  overflow: hidden;
+}
+.actualgraphLinegraphTrendsInner {
+  position: absolute;
+  height: 6.61%;
+  width: 5.07%;
+  top: 39.77%;
+  right: 75.18%;
+  bottom: 53.62%;
+  left: 19.74%;
+  background-color: var(--color-white);
+  border: 1px solid #327127;
+  box-sizing: border-box;
+}
+.div12 {
+  position: absolute;
+  height: 7.73%;
+  width: 3.22%;
+  top: 38.69%;
+  left: 20.46%;
+  color: var(--color-seagreen);
+  display: inline-block;
+}
+.vectorIcon10,
+.vectorIcon11 {
+  position: absolute;
+  top: 90.5px;
+  left: 47.4px;
+  width: 666px;
+  height: 66.9px;
+}
+.vectorIcon11 {
+  top: 29.4px;
+  left: 47.9px;
+  height: 88.8px;
+}
+.pm,
+.pm1,
+.pm2,
+.pm3 {
+  position: absolute;
+  height: 35.85%;
+  width: 4.57%;
+  top: 96.93%;
+  left: 51%;
+  display: inline-block;
+  transform: rotate(-89.59deg);
+  transform-origin: 0 0;
+}
+.pm1,
+.pm2,
+.pm3 {
+  width: 4.69%;
+  top: 83.49%;
+  left: 55.24%;
+}
+.pm2,
+.pm3 {
+  width: 4.62%;
+  top: 85.61%;
+  left: 59.48%;
+}
+.pm3 {
+  width: 4.79%;
+  top: 85.14%;
+  left: 63.74%;
+}
+.am,
+.am1,
+.am10,
+.am11,
+.am2,
+.am3,
+.am4,
+.am5,
+.am6,
+.am7,
+.am8,
+.am9,
+.pm10,
+.pm11,
+.pm4,
+.pm5,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  position: absolute;
+  height: 35.85%;
+  width: 4.44%;
+  top: 85.85%;
+  left: 67.99%;
+  display: inline-block;
+  transform: rotate(-89.59deg);
+  transform-origin: 0 0;
+}
+.am,
+.am1,
+.am10,
+.am11,
+.am2,
+.am3,
+.am4,
+.am5,
+.am6,
+.am7,
+.am8,
+.am9,
+.pm10,
+.pm11,
+.pm5,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 4.82%;
+  top: 82.55%;
+  left: 72.23%;
+}
+.am,
+.am1,
+.am10,
+.am11,
+.am2,
+.am3,
+.am4,
+.am5,
+.am6,
+.am7,
+.am8,
+.am9,
+.pm10,
+.pm11,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 5.21%;
+  top: 94.81%;
+  left: 25.52%;
+}
+.am1,
+.am10,
+.am11,
+.am2,
+.am3,
+.am4,
+.am5,
+.am6,
+.am7,
+.am8,
+.am9,
+.pm10,
+.pm11,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 4.36%;
+  top: 90.57%;
+  left: 29.78%;
+}
+.am10,
+.am11,
+.am2,
+.am3,
+.am4,
+.am5,
+.am6,
+.am7,
+.am8,
+.am9,
+.pm10,
+.pm11,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 4.47%;
+  top: 92.22%;
+  left: 34.02%;
+}
+.am10,
+.am11,
+.am3,
+.am4,
+.am5,
+.am6,
+.am7,
+.am8,
+.am9,
+.pm10,
+.pm11,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 4.48%;
+  left: 38.27%;
+}
+.am10,
+.am11,
+.am4,
+.am5,
+.am6,
+.am7,
+.am8,
+.am9,
+.pm10,
+.pm11,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 4.72%;
+  top: 99.53%;
+  left: 42.51%;
+}
+.am10,
+.am11,
+.am5,
+.am6,
+.am7,
+.am8,
+.am9,
+.pm10,
+.pm11,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 4.59%;
+  top: 94.34%;
+  left: 46.92%;
+}
+.am10,
+.am11,
+.am6,
+.am7,
+.am8,
+.am9,
+.pm10,
+.pm11,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 5.72%;
+  top: 99.76%;
+  left: 0;
+  transform: rotate(-89.61deg);
+}
+.am10,
+.am11,
+.am7,
+.am8,
+.am9,
+.pm10,
+.pm11,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 4.56%;
+  top: 94.1%;
+  left: 4.3%;
+  transform: rotate(-89.59deg);
+}
+.am10,
+.am11,
+.am8,
+.am9,
+.pm10,
+.pm11,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 4.72%;
+  top: 96.7%;
+  left: 8.55%;
+}
+.am10,
+.am11,
+.am9,
+.pm10,
+.pm11,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 6.09%;
+  top: 96.46%;
+  left: 12.79%;
+}
+.am10,
+.am11,
+.pm10,
+.pm11,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 4.87%;
+  top: 95.99%;
+  left: 17.03%;
+}
+.am11,
+.pm10,
+.pm11,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 4.45%;
+  top: 92.22%;
+  left: 21.34%;
+}
+.pm10,
+.pm11,
+.pm6,
+.pm7,
+.pm8,
+.pm9 {
+  width: 4.41%;
+  top: 85.38%;
+  left: 76.47%;
+}
+.pm10,
+.pm11,
+.pm7,
+.pm8,
+.pm9 {
+  width: 5.09%;
+  top: 83.73%;
+  left: 80.72%;
+}
+.pm10,
+.pm11,
+.pm8,
+.pm9 {
+  width: 4.57%;
+  top: 84.67%;
+  left: 84.96%;
+}
+.pm10,
+.pm11,
+.pm9 {
+  width: 5.06%;
+  left: 89.2%;
+}
+.pm10,
+.pm11 {
+  width: 4.75%;
+  top: 96.7%;
+  left: 93.52%;
+}
+.pm11 {
+  width: 4.87%;
+  top: 90.57%;
+  left: 97.69%;
+}
+.xaxisLinegraphTrends {
+  position: absolute;
+  height: 17.53%;
+  width: 92.85%;
+  top: 74.08%;
+  right: 1.44%;
+  bottom: 8.39%;
+  left: 5.71%;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-100);
+}
+.time {
+  position: absolute;
+  height: 7.73%;
+  width: 6.46%;
+  top: 92.27%;
+  left: 48.56%;
+  display: inline-block;
+}
+.actualgraphLinegraphTrends {
+  position: absolute;
+  height: 79.05%;
+  width: 97.22%;
+  top: 18.79%;
+  right: 1.09%;
+  bottom: 2.16%;
+  left: 1.69%;
+}
+.linegraphAnalysis {
+  position: absolute;
+  height: 51.34%;
+  width: 72.23%;
+  top: 101.17%;
+  right: 26.8%;
+  bottom: -52.52%;
+  left: 0.97%;
+  font-size: var(--font-size-xs);
+}
+.violencePeaksBetweenContainer {
+  height: 27.68%;
+  width: 96.99%;
+  top: 168.29%;
+  left: 2.04%;
+  font-size: var(--font-size-3xl);
+}
+.lineGraphAi,
+.safetyRatings,
+.violencePeaksBetweenContainer {
+  position: absolute;
+  display: inline-block;
+}
+.lineGraphAi {
+  height: 3.37%;
+  width: 55.33%;
+  top: 158.39%;
+  left: 1.94%;
+  text-decoration: underline;
+}
+.safetyRatings {
+  height: 9.39%;
+  width: 38.27%;
+  top: 6.11%;
+  left: 6.45%;
+}
+.e {
+  margin: 0;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+}
+.low,
+.med {
+  font-family: var(--font-inika);
+  color: var(--color-orange-100);
+}
+.low {
+  color: var(--color-red-100);
+}
+.incidentsPerPedestrianContainer {
+  position: absolute;
+  top: 94.4px;
+  left: 16px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 313.7px;
+  height: 293.5px;
+  font-size: var(--font-size-xl);
+}
+.vectorIcon12,
+.vectorIcon13 {
+  position: absolute;
+  height: 10.18%;
+  width: 12.12%;
+  top: 4.33%;
+  right: 43.03%;
+  bottom: 85.5%;
+  left: 44.85%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon13 {
+  height: 8.91%;
+  width: 10.61%;
+  top: 4.38%;
+  right: 3.73%;
+  bottom: 86.72%;
+  left: 85.67%;
+  cursor: pointer;
+}
+.safetykpiTrends {
+  position: absolute;
+  height: 65.94%;
+  width: 32.04%;
+  top: 1.85%;
+  right: 0.68%;
+  bottom: 32.21%;
+  left: 67.28%;
+  font-size: var(--font-size-lg);
+}
+.factorsParent {
+  position: absolute;
+  top: 23px;
+  left: 470px;
+}
+.demographicTrendsChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 11px;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-slateblue-200);
+  box-sizing: border-box;
+}
+.demographicsSurryHills,
+.genderMale582Container {
+  position: absolute;
+  height: 10.14%;
+  width: 84.51%;
+  top: 4.83%;
+  left: 3.54%;
+  display: inline-block;
+}
+.genderMale582Container {
+  top: 59.5px;
+  left: 18.2px;
+  white-space: pre-wrap;
+  width: 207.3px;
+  height: 38.9px;
+}
+.demographicTrends {
+  position: absolute;
+  height: 71.98%;
+  width: 26.02%;
+  top: 101.17%;
+  right: 0;
+  bottom: -73.15%;
+  left: 73.98%;
+  font-size: var(--font-size-mid);
+}
+.aiGeneratedSuggestions,
+.deploySecurityPresenceContainer {
+  position: absolute;
+  height: 64.69%;
+  width: 87.75%;
+  top: 12.52%;
+  left: 3.9%;
+  display: inline-block;
+}
+.aiGeneratedSuggestions {
+  height: 11.17%;
+  width: 90.25%;
+  top: 3.87%;
+  font-size: var(--font-size-xl);
+  text-decoration: underline;
+}
+.aisuggestionsAnalysis {
+  position: absolute;
+  height: 67.28%;
+  width: 81.46%;
+  top: 189.26%;
+  right: 17.28%;
+  bottom: -156.54%;
+  left: 1.26%;
+  font-size: var(--font-size-5xl);
+}
+.scrollReportincidents {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  max-height: 90%;
+  overflow: auto;
+}
+.scrollReportincidents.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-top;
+}
+.scrollReportincidentsWrapper {
+  position: absolute;
+  height: 71.63%;
+  width: 80.47%;
+  top: 18.99%;
+  right: 3.75%;
+  bottom: 9.38%;
+  left: 15.78%;
+}
+.trends {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+  font-family: var(--font-inika);
+}
+
+.vectorIcon5 {
+  width: 50px; 
+  left: -1px;
+  height: 100px;
+}
+
+.averageFrequencyOF13{
+  position: absolute;
+  top: 1000px;
+  bottom: 100;
+}
+.moreInfoContainer{
+  position: absolute;
+
+  top: -530px;
+  left: 950px;
+  font-size: 15px;
+  
+}
+.moreInfo{
+  position: relative;
+  width: 10px;
+}
+
+.vectorIcon50{
+  position: absolute;
+  top: 15px;
+  left: 76px;
+}

@@ -1,0 +1,1998 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.topbarMapp2Level4Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-slateblue-200);
+}
+.groupIcon,
+.screenshot202311271652466,
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.screenshot202311271652466 {
+  height: 94.38%;
+  width: 15.63%;
+  top: 0;
+  right: 84.38%;
+  bottom: 5.62%;
+  left: 0;
+  object-fit: cover;
+}
+.groupIcon,
+.vectorIcon,
+.vectorIcon1 {
+  height: 58.43%;
+  width: 3.59%;
+  top: 25.84%;
+  right: 11.72%;
+  bottom: 15.73%;
+  left: 84.69%;
+  cursor: pointer;
+}
+.groupIcon,
+.vectorIcon1 {
+  height: 57.3%;
+  width: 3.98%;
+  right: 4.14%;
+  bottom: 16.85%;
+  left: 91.88%;
+}
+.vectorIcon1 {
+  right: 18.52%;
+  left: 77.5%;
+}
+.sidebarMapp2,
+.topbarMapp2Level4 {
+  position: absolute;
+  height: 10.7%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 89.3%;
+  left: 0;
+}
+.sidebarMapp2 {
+  height: 100%;
+  bottom: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-right: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logOut {
+  position: absolute;
+  height: 43.75%;
+  width: 44.24%;
+  top: 56.25%;
+  left: 46.38%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.groupIcon1 {
+  position: absolute;
+  height: 50%;
+  width: 15.09%;
+  top: 43.75%;
+  right: 65.55%;
+  bottom: 6.25%;
+  left: 19.37%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logoutMapp2Child {
+  position: absolute;
+  height: 1.25%;
+  width: 100.51%;
+  top: -0.62%;
+  right: -0.25%;
+  bottom: 99.38%;
+  left: -0.25%;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.logoutMapp2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 10.77%;
+  width: 97.03%;
+  top: 87.35%;
+  right: 1.48%;
+  bottom: 1.88%;
+  left: 1.48%;
+}
+.trends {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.trendsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 61.98%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 38.02%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.groupIcon2 {
+  position: absolute;
+  height: 62.12%;
+  width: 26.83%;
+  top: 21.21%;
+  right: 73.17%;
+  bottom: 16.67%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.statisticsMapp2,
+.warningsWrapper {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.statisticsMapp2 {
+  padding: 0;
+  height: 8.88%;
+  width: 75.57%;
+  top: 46.3%;
+  right: 7.62%;
+  bottom: 44.82%;
+  left: 16.82%;
+}
+.warningsWrapper {
+  padding: var(--padding-3xs);
+  height: 81.13%;
+  width: 62.09%;
+  top: 18.87%;
+  right: 0.06%;
+  bottom: 0;
+  left: 37.85%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 86.79%;
+  width: 33.5%;
+  top: 0;
+  right: 66.5%;
+  bottom: 13.21%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.warningsMapp2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.13%;
+  width: 78.54%;
+  top: 33.24%;
+  right: 4.7%;
+  bottom: 59.62%;
+  left: 16.77%;
+}
+.allelementssidebarMapp2Child {
+  position: absolute;
+  height: 13.32%;
+  width: 100%;
+  top: 72.68%;
+  right: 0;
+  bottom: 14%;
+  left: 0;
+  background-color: var(--color-slateblue-200);
+}
+.maps {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.mapsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 76.79%;
+  width: 55.33%;
+  top: 23.21%;
+  right: 0;
+  bottom: 0;
+  left: 44.67%;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  position: absolute;
+  height: 71.07%;
+  width: 20.58%;
+  top: 0;
+  right: 70.88%;
+  bottom: 28.93%;
+  left: 8.54%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon4,
+.vectorIcon5 {
+  height: 12.14%;
+  width: 5.77%;
+  top: 16.25%;
+  right: 78.32%;
+  bottom: 71.61%;
+  left: 15.91%;
+}
+.vectorIcon5 {
+  height: 55.36%;
+  width: 36.86%;
+  top: 35.71%;
+  right: 63.14%;
+  bottom: 8.93%;
+  left: 0;
+}
+.mapsMapp2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.54%;
+  width: 67.75%;
+  top: 19.52%;
+  right: 15.23%;
+  bottom: 72.95%;
+  left: 17.01%;
+}
+.home {
+  position: absolute;
+  height: 72.92%;
+  width: 58.69%;
+  top: 27.08%;
+  left: 41.31%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  cursor: default;
+}
+.vectorIcon6 {
+  position: absolute;
+  height: 95.83%;
+  width: 30.7%;
+  top: 0;
+  right: 69.3%;
+  bottom: 4.17%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.homeMapp2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.46%;
+  width: 73.15%;
+  top: 4.58%;
+  right: 10.09%;
+  bottom: 88.96%;
+  left: 16.77%;
+}
+.recordsimageIcon {
+  position: absolute;
+  height: 100%;
+  width: 37.06%;
+  top: 0;
+  right: 62.94%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.records {
+  position: absolute;
+  top: 11px;
+  left: 76px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-paprika);
+  color: var(--color-black);
+  text-align: left;
+}
+.recordsimageParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.19%;
+  width: 70.72%;
+  top: 62.31%;
+  right: 12.96%;
+  bottom: 31.49%;
+  left: 16.32%;
+}
+.vectorIcon7 {
+  position: absolute;
+  height: 100%;
+  width: 32.84%;
+  top: 0;
+  right: 67.16%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.policies,
+.recordsPolicy {
+  position: absolute;
+  top: 8px;
+  left: 72px;
+}
+.recordsPolicy {
+  height: 6.19%;
+  width: 66.27%;
+  top: 76.72%;
+  right: 14.44%;
+  bottom: 17.09%;
+  left: 19.29%;
+}
+.allelementssidebarMapp2 {
+  position: absolute;
+  height: 89.3%;
+  width: 15.8%;
+  top: 10.7%;
+  right: 84.2%;
+  bottom: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-paprika);
+}
+.policy {
+  position: absolute;
+  height: 6.75%;
+  width: 12.97%;
+  top: 12.74%;
+  left: 18.44%;
+  font-size: var(--font-size-13xl);
+  text-decoration: underline;
+  display: inline-block;
+}
+.timelinegraphPolicyChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-slateblue-200);
+  box-sizing: border-box;
+}
+.end,
+.jan2023,
+.jul2023,
+.may2023,
+.sep2023,
+.start {
+  position: absolute;
+  height: 4.89%;
+  width: 3.78%;
+  top: 25.78%;
+  left: 4.7%;
+  display: inline-block;
+  transform: rotate(0.25deg);
+  transform-origin: 0 0;
+}
+.end,
+.jan2023,
+.jul2023,
+.may2023,
+.sep2023 {
+  width: 3.14%;
+  top: 76%;
+  left: 5.36%;
+}
+.jan2023,
+.jul2023,
+.may2023,
+.sep2023 {
+  width: 3.34%;
+  top: 93.33%;
+  left: 9.26%;
+  transform: rotate(-89.61deg);
+}
+.jul2023,
+.may2023,
+.sep2023 {
+  left: 27.62%;
+}
+.jul2023,
+.sep2023 {
+  left: 39.76%;
+}
+.sep2023 {
+  left: 47.95%;
+}
+.timelinegraphPolicyInner,
+.timelinegraphPolicyItem {
+  position: absolute;
+  bottom: 17.42%;
+  left: 8.39%;
+  box-sizing: border-box;
+}
+.timelinegraphPolicyItem {
+  height: 58.44%;
+  width: 0.23%;
+  top: 24.13%;
+  right: 91.38%;
+  border-right: 1.5px solid var(--color-lightgray);
+}
+.timelinegraphPolicyInner {
+  height: 0.67%;
+  width: 91.43%;
+  top: 81.91%;
+  right: 0.18%;
+  border-top: 1.5px solid var(--color-lightgray);
+}
+.timeline {
+  position: absolute;
+  height: 6.22%;
+  width: 48.1%;
+  top: 6.22%;
+  left: 2.43%;
+  font-size: var(--font-size-sm);
+  text-decoration: underline;
+  display: inline-block;
+  color: var(--color-black);
+}
+.rectangleDiv {
+  position: absolute;
+  top: 53px;
+  left: 72px;
+  background-color: #76fe60;
+  width: 121px;
+  height: 26px;
+}
+.timelinegraphPolicyChild1 {
+  position: absolute;
+  top: 87px;
+  left: 193px;
+  background-color: #48ddfe;
+  width: 136px;
+  height: 24px;
+}
+.timelinegraphPolicyChild2 {
+  position: absolute;
+  top: 120px;
+  left: 273px;
+  background-color: #f9fd38;
+  width: 56px;
+  height: 22px;
+}
+.timelinegraphPolicyChild3 {
+  position: absolute;
+  top: 152px;
+  left: 327px;
+  background-color: #ffabab;
+  width: 295px;
+  height: 24px;
+}
+.announcement {
+  position: absolute;
+  top: 58px;
+  left: 80px;
+  display: inline-block;
+  width: 109px;
+  height: 33px;
+}
+.announcement,
+.implementation,
+.testing {
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.implementation {
+  position: absolute;
+  top: 90px;
+  left: 202px;
+  display: inline-block;
+  width: 117px;
+  height: 17px;
+}
+.testing {
+  top: 124px;
+  left: 278px;
+  width: 59px;
+  height: 18px;
+}
+.dataCollection,
+.mar2024,
+.testing {
+  position: absolute;
+  display: inline-block;
+}
+.dataCollection {
+  top: 155px;
+  left: 331px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  width: 283px;
+  height: 17px;
+}
+.mar2024 {
+  height: 4.89%;
+  width: 3.34%;
+  top: 93.16%;
+  left: 66.46%;
+  transform: rotate(-89.61deg);
+  transform-origin: 0 0;
+}
+.timelinegraphPolicy {
+  position: absolute;
+  height: 27.04%;
+  width: 51.48%;
+  top: 19.28%;
+  right: 30.08%;
+  bottom: 53.68%;
+  left: 18.44%;
+  color: var(--color-gray-100);
+}
+.averagePerMonthContainer {
+  height: 3.44%;
+  width: 29.55%;
+  top: 3.44%;
+  left: 52.58%;
+  font-size: var(--font-size-sm);
+}
+.averagePerMonthContainer,
+.correlationOverPolicy,
+.pedestrians {
+  position: absolute;
+  display: inline-block;
+}
+.correlationOverPolicy {
+  height: 9.95%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+}
+.pedestrians {
+  top: 36.13%;
+  left: 11.01%;
+  color: var(--color-seagreen);
+}
+.pedestrians,
+.substances,
+.violence {
+  height: 7.33%;
+  width: 29.52%;
+  transform: rotate(0.18deg);
+  transform-origin: 0 0;
+}
+.substances {
+  position: absolute;
+  top: 52.36%;
+  left: 11.01%;
+  color: #ffab2e;
+  display: inline-block;
+}
+.violence {
+  top: 69.63%;
+  left: 13.66%;
+  color: var(--color-seagreen);
+}
+.coefficient,
+.factor,
+.violence,
+.weapons {
+  position: absolute;
+  display: inline-block;
+}
+.weapons {
+  height: 7.33%;
+  width: 29.52%;
+  top: 84.29%;
+  left: 13.66%;
+  color: var(--color-seagreen);
+  transform: rotate(0.18deg);
+  transform-origin: 0 0;
+}
+.coefficient,
+.factor {
+  top: 29px;
+  left: 25px;
+  font-size: var(--font-size-mini);
+  width: 80px;
+  height: 24px;
+}
+.coefficient {
+  left: 118px;
+  width: 90px;
+}
+.correlationPolicyChild {
+  position: absolute;
+  top: 30px;
+  left: 97px;
+  width: 1px;
+  height: 161px;
+  object-fit: contain;
+}
+.div,
+.div1,
+.div2,
+.div3 {
+  position: absolute;
+  top: 66px;
+  left: 141px;
+  display: inline-block;
+  width: 26px;
+  height: 14px;
+}
+.div1,
+.div2,
+.div3 {
+  top: 97px;
+  left: 137px;
+  width: 58px;
+}
+.div2,
+.div3 {
+  top: 129px;
+  left: 136px;
+}
+.div3 {
+  top: 161px;
+}
+.correlationPolicy {
+  position: absolute;
+  height: 46.93%;
+  width: 34.39%;
+  top: 12.78%;
+  right: 1.52%;
+  bottom: 40.29%;
+  left: 64.09%;
+  font-size: var(--font-size-xs);
+}
+.isThePolicy {
+  position: absolute;
+  height: 15.7%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: underline;
+  display: inline-block;
+}
+.thumbPolicyIcon {
+  position: absolute;
+  height: 59.5%;
+  width: 36.12%;
+  top: 30.17%;
+  right: 3.74%;
+  bottom: 10.33%;
+  left: 60.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.factorsAreProgressingContainer {
+  position: absolute;
+  top: 38px;
+  left: 3px;
+  display: inline-block;
+  width: 115px;
+  height: 83px;
+}
+.improvementPolicy {
+  position: absolute;
+  height: 29.73%;
+  width: 34.39%;
+  top: 62.16%;
+  right: 1.52%;
+  bottom: 8.11%;
+  left: 64.09%;
+  font-size: var(--font-size-mini);
+}
+.pedestrians1,
+.policyLifetime {
+  position: absolute;
+  height: 8.56%;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  display: inline-block;
+}
+.pedestrians1 {
+  width: 37.49%;
+  top: 62.41%;
+  left: 0.28%;
+  transform: rotate(-90.41deg);
+  transform-origin: 0 0;
+}
+.policyLifetime {
+  width: 48.13%;
+  top: 91.44%;
+  left: 41.41%;
+}
+.pedestrians1graphPolicyChild {
+  position: absolute;
+  top: 112px;
+  left: 42px;
+  width: 7px;
+  height: 6px;
+}
+.pedestrians1graphPolicyInner,
+.pedestrians1graphPolicyItem {
+  position: absolute;
+  top: 106px;
+  left: 52px;
+  width: 7px;
+  height: 6px;
+}
+.pedestrians1graphPolicyInner {
+  top: 63px;
+  left: 103px;
+}
+.pedestrians1graphPolicyChild1,
+.pedestrians1graphPolicyChild2 {
+  position: absolute;
+  top: 72px;
+  left: 113px;
+  width: 7px;
+  height: 6px;
+}
+.pedestrians1graphPolicyChild2 {
+  top: 78px;
+  left: 120px;
+}
+.pedestrians1graphPolicyChild3,
+.pedestrians1graphPolicyChild4 {
+  position: absolute;
+  top: 72px;
+  left: 130px;
+  width: 7px;
+  height: 6px;
+}
+.pedestrians1graphPolicyChild4 {
+  top: 63px;
+  left: 137px;
+}
+.pedestrians1graphPolicyChild5,
+.pedestrians1graphPolicyChild6 {
+  position: absolute;
+  top: 66px;
+  left: 123px;
+  width: 7px;
+  height: 6px;
+}
+.pedestrians1graphPolicyChild6 {
+  top: 54px;
+  left: 140px;
+}
+.pedestrians1graphPolicyChild7,
+.pedestrians1graphPolicyChild8 {
+  position: absolute;
+  top: 60px;
+  left: 147px;
+  width: 7px;
+  height: 6px;
+}
+.pedestrians1graphPolicyChild8 {
+  top: 44px;
+  left: 151px;
+}
+.pedestrians1graphPolicyChild10,
+.pedestrians1graphPolicyChild9 {
+  position: absolute;
+  top: 102px;
+  left: 59px;
+  width: 7px;
+  height: 6px;
+}
+.pedestrians1graphPolicyChild10 {
+  top: 112px;
+  left: 70px;
+}
+.pedestrians1graphPolicyChild11,
+.pedestrians1graphPolicyChild12 {
+  position: absolute;
+  top: 91px;
+  left: 66px;
+  width: 7px;
+  height: 6px;
+}
+.pedestrians1graphPolicyChild12 {
+  top: 94px;
+  left: 81px;
+}
+.pedestrians1graphPolicyChild13,
+.pedestrians1graphPolicyChild14 {
+  position: absolute;
+  top: 81px;
+  left: 77px;
+  width: 7px;
+  height: 6px;
+}
+.pedestrians1graphPolicyChild14 {
+  left: 96px;
+}
+.end1,
+.pedestrians1graphPolicyChild15,
+.start1 {
+  position: absolute;
+  top: 75px;
+  left: 88px;
+  width: 7px;
+  height: 6px;
+}
+.end1,
+.start1 {
+  height: 6.72%;
+  width: 13.93%;
+  top: 86.8%;
+  left: 23.5%;
+  display: inline-block;
+  transform: rotate(0.25deg);
+  transform-origin: 0 0;
+}
+.end1 {
+  width: 11.58%;
+  left: 88.42%;
+}
+.lineDiv,
+.pedestrians1graphPolicyChild16 {
+  position: absolute;
+  bottom: 19.44%;
+  left: 23.06%;
+  box-sizing: border-box;
+}
+.lineDiv {
+  height: 78.55%;
+  width: 0.84%;
+  top: 2.02%;
+  right: 76.11%;
+  border-right: 1.5px solid var(--color-lightgray);
+}
+.pedestrians1graphPolicyChild16 {
+  height: 0.92%;
+  width: 71.35%;
+  top: 79.65%;
+  right: 5.6%;
+  border-top: 1.5px solid var(--color-lightgray);
+}
+.div4,
+.div5 {
+  position: absolute;
+  height: 6.72%;
+  width: 6.77%;
+  top: 0;
+  left: 16.79%;
+  display: inline-block;
+  transform: rotate(0.25deg);
+  transform-origin: 0 0;
+}
+.div5 {
+  top: 75.79%;
+  left: 20.15%;
+}
+.pedestrians1graphPolicy {
+  position: absolute;
+  height: 40.2%;
+  width: 27.08%;
+  top: 12.53%;
+  right: 70.8%;
+  bottom: 47.27%;
+  left: 2.12%;
+  color: var(--color-gray-100);
+}
+.policyLifetime1,
+.violence1 {
+  position: absolute;
+  height: 8.4%;
+  width: 48.13%;
+  top: 91.6%;
+  left: 40.85%;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  display: inline-block;
+}
+.violence1 {
+  width: 37.49%;
+  top: 55.88%;
+  left: 0.28%;
+  transform: rotate(-90.41deg);
+  transform-origin: 0 0;
+}
+.violencegraphPolicyChild,
+.violencegraphPolicyItem {
+  position: absolute;
+  top: 28px;
+  left: 45px;
+  width: 7px;
+  height: 6px;
+}
+.violencegraphPolicyItem {
+  top: 37px;
+  left: 51px;
+}
+.violencegraphPolicyChild1,
+.violencegraphPolicyInner {
+  position: absolute;
+  top: 31px;
+  left: 58px;
+  width: 7px;
+  height: 6px;
+}
+.violencegraphPolicyChild1 {
+  top: 40px;
+  left: 61px;
+}
+.violencegraphPolicyChild2,
+.violencegraphPolicyChild3 {
+  position: absolute;
+  top: 58px;
+  left: 67px;
+  width: 7px;
+  height: 6px;
+}
+.violencegraphPolicyChild3 {
+  top: 40px;
+  left: 74px;
+}
+.violencegraphPolicyChild4,
+.violencegraphPolicyChild5 {
+  position: absolute;
+  top: 53px;
+  left: 77px;
+  width: 7px;
+  height: 6px;
+}
+.violencegraphPolicyChild5 {
+  top: 63px;
+  left: 82px;
+}
+.violencegraphPolicyChild6,
+.violencegraphPolicyChild7 {
+  position: absolute;
+  top: 56px;
+  left: 89px;
+  width: 7px;
+  height: 6px;
+}
+.violencegraphPolicyChild7 {
+  top: 40px;
+  left: 99px;
+}
+.violencegraphPolicyChild8,
+.violencegraphPolicyChild9 {
+  position: absolute;
+  top: 102px;
+  left: 159px;
+  width: 7px;
+  height: 6px;
+}
+.violencegraphPolicyChild9 {
+  top: 90px;
+  left: 166px;
+}
+.violencegraphPolicyChild10,
+.violencegraphPolicyChild11 {
+  position: absolute;
+  top: 75px;
+  left: 100px;
+  width: 7px;
+  height: 6px;
+}
+.violencegraphPolicyChild11 {
+  top: 60px;
+  left: 104px;
+}
+.violencegraphPolicyChild12,
+.violencegraphPolicyChild13 {
+  position: absolute;
+  top: 81px;
+  left: 110px;
+  width: 7px;
+  height: 6px;
+}
+.violencegraphPolicyChild13 {
+  top: 58px;
+  left: 114px;
+}
+.violencegraphPolicyChild14,
+.violencegraphPolicyChild15 {
+  position: absolute;
+  top: 72px;
+  left: 118px;
+  width: 7px;
+  height: 6px;
+}
+.violencegraphPolicyChild15 {
+  top: 90px;
+  left: 125px;
+}
+.violencegraphPolicyChild16,
+.violencegraphPolicyChild17 {
+  position: absolute;
+  top: 75px;
+  left: 129px;
+  width: 7px;
+  height: 6px;
+}
+.violencegraphPolicyChild17 {
+  top: 66px;
+  left: 134px;
+}
+.violencegraphPolicyChild18,
+.violencegraphPolicyChild19 {
+  position: absolute;
+  top: 84px;
+  left: 136px;
+  width: 7px;
+  height: 6px;
+}
+.violencegraphPolicyChild19 {
+  top: 78px;
+  left: 147px;
+}
+.violencegraphPolicyChild20,
+.violencegraphPolicyChild21 {
+  position: absolute;
+  top: 59px;
+  left: 141px;
+  width: 7px;
+  height: 6px;
+}
+.violencegraphPolicyChild21 {
+  top: 87px;
+  left: 152px;
+}
+.violencegraphPolicyChild22 {
+  position: absolute;
+  height: 0.9%;
+  width: 71.35%;
+  top: 77.61%;
+  right: 5.6%;
+  bottom: 21.49%;
+  left: 23.06%;
+  border-top: 1.5px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.div6,
+.div7,
+.end2,
+.start2 {
+  position: absolute;
+  height: 6.6%;
+  width: 6.77%;
+  top: 0;
+  left: 17.91%;
+  display: inline-block;
+  transform: rotate(0.25deg);
+  transform-origin: 0 0;
+}
+.div7,
+.end2,
+.start2 {
+  top: 71.43%;
+  left: 20.15%;
+}
+.end2,
+.start2 {
+  width: 13.93%;
+  top: 84.63%;
+  left: 23.5%;
+}
+.end2 {
+  width: 11.58%;
+  left: 88.42%;
+}
+.violencegraphPolicyChild23 {
+  position: absolute;
+  height: 77.13%;
+  width: 0.84%;
+  top: 1.38%;
+  right: 76.11%;
+  bottom: 21.49%;
+  left: 23.06%;
+  border-right: 1.5px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.violencegraphPolicy {
+  position: absolute;
+  height: 40.93%;
+  width: 27.08%;
+  top: 55.04%;
+  right: 70.8%;
+  bottom: 4.03%;
+  left: 2.12%;
+  color: var(--color-gray-100);
+}
+.graphsgraphsPolicyChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  border: 2px solid var(--color-slateblue-200);
+  box-sizing: border-box;
+}
+.policyLifetime2 {
+  position: absolute;
+  height: 8.4%;
+  width: 49.8%;
+  top: 91.6%;
+  left: 40.85%;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  display: inline-block;
+}
+.weaponsgraphPolicyChild,
+.weaponsgraphPolicyItem {
+  position: absolute;
+  top: 96px;
+  left: 45px;
+  width: 7px;
+  height: 6px;
+}
+.weaponsgraphPolicyItem {
+  top: 102px;
+  left: 48px;
+}
+.weaponsgraphPolicyChild1,
+.weaponsgraphPolicyInner {
+  position: absolute;
+  top: 108px;
+  left: 53px;
+  width: 7px;
+  height: 6px;
+}
+.weaponsgraphPolicyChild1 {
+  top: 101px;
+  left: 59px;
+}
+.weaponsgraphPolicyChild2,
+.weaponsgraphPolicyChild3 {
+  position: absolute;
+  top: 120px;
+  left: 87px;
+  width: 7px;
+  height: 6px;
+}
+.weaponsgraphPolicyChild3 {
+  top: 111px;
+  left: 79px;
+}
+.weaponsgraphPolicyChild4,
+.weaponsgraphPolicyChild5 {
+  position: absolute;
+  top: 113px;
+  left: 94px;
+  width: 7px;
+  height: 6px;
+}
+.weaponsgraphPolicyChild5 {
+  top: 119px;
+  left: 98px;
+}
+.weaponsgraphPolicyChild6,
+.weaponsgraphPolicyChild7 {
+  position: absolute;
+  top: 120px;
+  left: 116px;
+  width: 7px;
+  height: 6px;
+}
+.weaponsgraphPolicyChild7 {
+  top: 123px;
+  left: 126px;
+}
+.weaponsgraphPolicyChild8,
+.weaponsgraphPolicyChild9 {
+  position: absolute;
+  top: 115px;
+  left: 131px;
+  width: 7px;
+  height: 6px;
+}
+.weaponsgraphPolicyChild9 {
+  top: 122px;
+  left: 135px;
+}
+.weaponsgraphPolicyChild10,
+.weaponsgraphPolicyChild11 {
+  position: absolute;
+  top: 109px;
+  left: 138px;
+  width: 7px;
+  height: 6px;
+}
+.weaponsgraphPolicyChild11 {
+  top: 119px;
+  left: 146px;
+}
+.weaponsgraphPolicyChild12,
+.weaponsgraphPolicyChild13 {
+  position: absolute;
+  top: 123px;
+  left: 152px;
+  width: 7px;
+  height: 6px;
+}
+.weaponsgraphPolicyChild13 {
+  top: 112px;
+  left: 106px;
+}
+.weaponsgraphPolicyChild14,
+.weaponsgraphPolicyChild15 {
+  position: absolute;
+  top: 119px;
+  left: 109px;
+  width: 7px;
+  height: 6px;
+}
+.weaponsgraphPolicyChild15 {
+  top: 115px;
+  left: 64px;
+}
+.weaponsgraphPolicyChild16,
+.weaponsgraphPolicyChild17 {
+  position: absolute;
+  top: 119px;
+  left: 73px;
+  width: 7px;
+  height: 6px;
+}
+.weaponsgraphPolicyChild17 {
+  top: 93px;
+  left: 69px;
+}
+.div9,
+.weapons1 {
+  position: absolute;
+  display: inline-block;
+  transform-origin: 0 0;
+}
+.weapons1 {
+  height: 8.4%;
+  width: 37.49%;
+  top: 60.68%;
+  left: 0.28%;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  transform: rotate(-90.41deg);
+}
+.div9 {
+  height: 6.6%;
+  width: 6.77%;
+  top: 74.43%;
+  left: 20.15%;
+  transform: rotate(0.25deg);
+}
+.weaponsgraphPolicyChild19 {
+  position: absolute;
+  height: 0.9%;
+  width: 71.35%;
+  top: 77.61%;
+  right: 5.54%;
+  bottom: 21.49%;
+  left: 23.11%;
+  border-top: 1.5px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.weaponsgraphPolicy {
+  position: absolute;
+  height: 40.93%;
+  width: 27.08%;
+  top: 55.04%;
+  right: 38.23%;
+  bottom: 4.03%;
+  left: 34.7%;
+  color: var(--color-gray-100);
+}
+.policyLifetime3 {
+  position: absolute;
+  height: 8.56%;
+  width: 49.8%;
+  top: 91.44%;
+  left: 38.61%;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  display: inline-block;
+}
+.substancesgraphPolicyChild,
+.substancesgraphPolicyItem {
+  position: absolute;
+  top: 60px;
+  left: 44px;
+  width: 7px;
+  height: 6px;
+}
+.substancesgraphPolicyItem {
+  top: 69px;
+  left: 48px;
+}
+.substancesgraphPolicyChild1,
+.substancesgraphPolicyInner {
+  position: absolute;
+  top: 50px;
+  left: 52px;
+  width: 7px;
+  height: 6px;
+}
+.substancesgraphPolicyChild1 {
+  top: 78px;
+  left: 56px;
+}
+.substancesgraphPolicyChild2,
+.substancesgraphPolicyChild3 {
+  position: absolute;
+  top: 66px;
+  left: 68px;
+  width: 7px;
+  height: 6px;
+}
+.substancesgraphPolicyChild3 {
+  top: 84px;
+  left: 75px;
+}
+.substancesgraphPolicyChild4,
+.substancesgraphPolicyChild5 {
+  position: absolute;
+  top: 72px;
+  left: 79px;
+  width: 7px;
+  height: 6px;
+}
+.substancesgraphPolicyChild5 {
+  top: 53px;
+  left: 72px;
+}
+.substancesgraphPolicyChild6,
+.substancesgraphPolicyChild7 {
+  position: absolute;
+  top: 78px;
+  left: 94px;
+  width: 7px;
+  height: 6px;
+}
+.substancesgraphPolicyChild7 {
+  top: 63px;
+  left: 98px;
+}
+.substancesgraphPolicyChild8,
+.substancesgraphPolicyChild9 {
+  position: absolute;
+  top: 72px;
+  left: 105px;
+  width: 7px;
+  height: 6px;
+}
+.substancesgraphPolicyChild9 {
+  top: 57px;
+  left: 112px;
+}
+.substancesgraphPolicyChild10,
+.substancesgraphPolicyChild11 {
+  position: absolute;
+  top: 85px;
+  left: 116px;
+  width: 7px;
+  height: 6px;
+}
+.substancesgraphPolicyChild11 {
+  top: 44px;
+  left: 123px;
+}
+.substancesgraphPolicyChild12,
+.substancesgraphPolicyChild13 {
+  position: absolute;
+  top: 75px;
+  left: 126px;
+  width: 7px;
+  height: 6px;
+}
+.substancesgraphPolicyChild13 {
+  top: 88px;
+  left: 141px;
+}
+.substancesgraphPolicyChild14,
+.substancesgraphPolicyChild15 {
+  position: absolute;
+  top: 63px;
+  left: 134px;
+  width: 7px;
+  height: 6px;
+}
+.substancesgraphPolicyChild15 {
+  top: 96px;
+  left: 149px;
+}
+.substancesgraphPolicyChild16,
+.substancesgraphPolicyChild17 {
+  position: absolute;
+  top: 72px;
+  left: 146px;
+  width: 7px;
+  height: 6px;
+}
+.substancesgraphPolicyChild17 {
+  top: 84px;
+  left: 156px;
+}
+.substancesgraphPolicyChild18,
+.substancesgraphPolicyChild19 {
+  position: absolute;
+  top: 100px;
+  left: 163px;
+  width: 7px;
+  height: 6px;
+}
+.substancesgraphPolicyChild19 {
+  top: 60px;
+  left: 57px;
+}
+.substancesgraphPolicyChild20,
+.substancesgraphPolicyChild21 {
+  position: absolute;
+  bottom: 19.44%;
+  left: 23.11%;
+  box-sizing: border-box;
+}
+.substancesgraphPolicyChild20 {
+  height: 78.55%;
+  width: 0.84%;
+  top: 2.02%;
+  right: 76.05%;
+  border-right: 1.5px solid var(--color-lightgray);
+}
+.substancesgraphPolicyChild21 {
+  height: 0.92%;
+  width: 71.35%;
+  top: 79.65%;
+  right: 5.54%;
+  border-top: 1.5px solid var(--color-lightgray);
+}
+.substancesgraphPolicy {
+  position: absolute;
+  height: 40.2%;
+  width: 27.08%;
+  top: 12.53%;
+  right: 38.23%;
+  bottom: 47.27%;
+  left: 34.7%;
+  color: var(--color-gray-100);
+}
+.impactOfSelected {
+  position: absolute;
+  height: 3.44%;
+  width: 51.82%;
+  top: 3.44%;
+  left: 2.42%;
+  font-size: var(--font-size-sm);
+  text-decoration: underline;
+  display: inline-block;
+}
+.graphsgraphsPolicy {
+  position: absolute;
+  height: 48.92%;
+  width: 51.56%;
+  top: 49.09%;
+  right: 30%;
+  bottom: 2%;
+  left: 18.44%;
+}
+.comparison {
+  position: absolute;
+  height: 5.76%;
+  width: 59.39%;
+  top: 0;
+  left: 5.76%;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  color: var(--color-black);
+}
+.beforeimplementationPolicyChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.factors1 {
+  text-decoration: underline;
+}
+.span {
+  color: var(--color-slateblue-200);
+}
+.factors {
+  position: absolute;
+  height: 4.38%;
+  width: 36.09%;
+  top: 21.66%;
+  left: 6.18%;
+  display: inline-block;
+  white-space: pre-wrap;
+  color: var(--color-black);
+}
+.beforeImplementation {
+  height: 7.03%;
+  width: 39.18%;
+  top: 6.39%;
+  left: 4.64%;
+  color: var(--color-black);
+}
+.beforeImplementation,
+.pedestrians2,
+.substances2 {
+  position: absolute;
+  display: inline-block;
+}
+.pedestrians2 {
+  height: 4.47%;
+  width: 35.52%;
+  top: 32.56%;
+  left: 6.67%;
+  white-space: pre-wrap;
+}
+.substances2 {
+  height: 4.22%;
+  width: 33.33%;
+  top: 43.13%;
+  left: 6.79%;
+}
+.lighting,
+.maintenance,
+.violence2,
+.weapons2 {
+  position: absolute;
+  height: 6.84%;
+  width: 30%;
+  top: 64.25%;
+  left: 7.09%;
+  display: inline-block;
+}
+.lighting,
+.maintenance,
+.violence2 {
+  width: 28.79%;
+  top: 74.82%;
+  left: 6.79%;
+}
+.maintenance,
+.violence2 {
+  height: 4.54%;
+  width: 23.76%;
+  top: 53.67%;
+  left: 7.09%;
+}
+.maintenance {
+  height: 6.84%;
+  width: 36.06%;
+  top: 85.4%;
+  left: 6.48%;
+}
+.biarrowUpIcon,
+.biarrowUpIcon1,
+.biarrowUpIcon2 {
+  position: absolute;
+  height: 4.63%;
+  width: 4.94%;
+  top: 43%;
+  right: 25.94%;
+  bottom: 52.36%;
+  left: 69.12%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.biarrowUpIcon1,
+.biarrowUpIcon2 {
+  top: 53.48%;
+  bottom: 41.88%;
+}
+.biarrowUpIcon2 {
+  height: 4.7%;
+  width: 4.97%;
+  top: 33.39%;
+  bottom: 61.92%;
+  left: 69.09%;
+  object-fit: contain;
+}
+.wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+.wrapper.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-top;
+}
+.calendarStatistics {
+  position: absolute;
+  height: 6.39%;
+  width: 41.67%;
+  top: 4.47%;
+  right: 6.21%;
+  bottom: 89.14%;
+  left: 52.12%;
+}
+.b,
+.b1,
+.b2,
+.b3 {
+  position: absolute;
+  height: 4.44%;
+  width: 27.15%;
+  top: 44.35%;
+  left: 61.73%;
+  display: inline-block;
+}
+.b1,
+.b2,
+.b3 {
+  height: 4.35%;
+  width: 5.45%;
+  top: 33.93%;
+  left: 61.82%;
+}
+.b2,
+.b3 {
+  top: 54.73%;
+}
+.b3 {
+  top: 65.11%;
+}
+.rating {
+  height: 4.44%;
+  width: 29%;
+  top: 75.5%;
+  left: 61.73%;
+  color: #d5821f;
+}
+.cGrade,
+.dailyAverage,
+.rating {
+  position: absolute;
+  display: inline-block;
+}
+.cGrade {
+  height: 6.84%;
+  width: 29%;
+  top: 85.88%;
+  left: 61.82%;
+  color: #aca83a;
+}
+.dailyAverage {
+  height: 4.31%;
+  width: 36.09%;
+  top: 22.94%;
+  left: 60.48%;
+  white-space: pre-wrap;
+  color: var(--color-black);
+}
+.biarrowUpIcon3 {
+  position: absolute;
+  height: 4.57%;
+  width: 4.94%;
+  top: 65.18%;
+  right: 25.94%;
+  bottom: 30.26%;
+  left: 69.12%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.beforeimplementationPolicy {
+  position: absolute;
+  height: 46.23%;
+  width: 100%;
+  top: 53.77%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.pedestrians3 {
+  position: absolute;
+  height: 4.64%;
+  width: 35.52%;
+  top: 30.13%;
+  left: 6.67%;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.lighting1,
+.substances3,
+.violence3,
+.weapons3 {
+  position: absolute;
+  height: 4.38%;
+  width: 33.33%;
+  top: 41.07%;
+  left: 6.79%;
+  display: inline-block;
+}
+.lighting1,
+.violence3,
+.weapons3 {
+  height: 7.07%;
+  width: 30%;
+  top: 62.96%;
+  left: 7.09%;
+}
+.lighting1,
+.violence3 {
+  width: 28.79%;
+  top: 73.9%;
+  left: 6.79%;
+}
+.violence3 {
+  height: 4.7%;
+  width: 23.76%;
+  top: 52.02%;
+  left: 7.09%;
+}
+.div12,
+.div13,
+.div14,
+.div15,
+.maintenance1 {
+  position: absolute;
+  height: 7.07%;
+  width: 36.06%;
+  top: 84.84%;
+  left: 6.48%;
+  display: inline-block;
+}
+.div12,
+.div13,
+.div14,
+.div15 {
+  top: 128.4px;
+  left: 203.7px;
+  width: 89.6px;
+  height: 14.7px;
+}
+.div13,
+.div14,
+.div15 {
+  top: 94.2px;
+  left: 204px;
+  width: 18px;
+  height: 14.3px;
+}
+.div14,
+.div15 {
+  top: 162.6px;
+}
+.div15 {
+  top: 196.8px;
+}
+.rating1 {
+  top: 231px;
+  left: 203.7px;
+  color: #d5811f;
+  width: 95.7px;
+  height: 14.7px;
+}
+.bGrade,
+.factors2,
+.rating1 {
+  position: absolute;
+  display: inline-block;
+}
+.bGrade {
+  top: 265.2px;
+  left: 204px;
+  color: #40b34c;
+  width: 95.7px;
+  height: 22.5px;
+}
+.factors2 {
+  height: 4.54%;
+  width: 36.09%;
+  top: 20.79%;
+  left: 6.48%;
+  white-space: pre-wrap;
+  color: var(--color-black);
+}
+.biarrowUpIcon4 {
+  height: 4.86%;
+  width: 5%;
+  top: 52.11%;
+  right: 26.82%;
+  bottom: 43.03%;
+  left: 68.18%;
+  object-fit: contain;
+}
+.biarrowUpIcon4,
+.biarrowUpIcon5,
+.biarrowUpIcon6,
+.biarrowUpIcon7 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.biarrowUpIcon5 {
+  height: 4.86%;
+  width: 5%;
+  top: 62.7%;
+  right: 26.82%;
+  bottom: 32.44%;
+  left: 68.18%;
+  object-fit: contain;
+}
+.biarrowUpIcon6,
+.biarrowUpIcon7 {
+  left: 68.21%;
+}
+.biarrowUpIcon6 {
+  height: 4.86%;
+  width: 5%;
+  top: 42.23%;
+  right: 26.79%;
+  bottom: 52.91%;
+  object-fit: contain;
+}
+.biarrowUpIcon7 {
+  height: 4.8%;
+  width: 4.94%;
+  top: 31.35%;
+  right: 26.85%;
+  bottom: 63.85%;
+}
+.afterImplementation,
+.dailyAverage2 {
+  position: absolute;
+  height: 7.04%;
+  width: 39.91%;
+  top: 5.12%;
+  left: 4.45%;
+  color: var(--color-black);
+  display: inline-block;
+}
+.dailyAverage2 {
+  height: 4.54%;
+  width: 36.09%;
+  top: 22.39%;
+  left: 57.39%;
+  white-space: pre-wrap;
+}
+.afterimplementationPolicy {
+  position: absolute;
+  height: 46.17%;
+  width: 100%;
+  top: 5.02%;
+  right: 0;
+  bottom: 48.8%;
+  left: 0;
+}
+.comparisonPolicy {
+  position: absolute;
+  height: 81.37%;
+  width: 25.78%;
+  top: 15.14%;
+  right: 1.56%;
+  bottom: 3.49%;
+  left: 72.66%;
+  font-size: var(--font-size-mini);
+  color: var(--color-slateblue-200);
+}
+.calendarStatistics1 {
+  position: absolute;
+  height: 2.4%;
+  width: 10.74%;
+  top: 20.55%;
+  right: 2.62%;
+  bottom: 77.04%;
+  left: 86.64%;
+}
+.actionsParent,
+.moreInfo,
+.placesParent {
+  position: absolute;
+  top: 106px;
+  left: 343px;
+}
+.moreInfo,
+.placesParent {
+  left: 610px;
+}
+.moreInfo {
+  top: 136px;
+  left: 1167px;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  width: 88px;
+  height: 20px;
+  cursor: pointer;
+}
+.policyComparison {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-inika);
+}
+
+.vectorIcon3 {
+  width: 50px; /* Adjust the width as needed */
+  left: -1px;
+  height: 100px; /* Adjust the height as needed */
+}
