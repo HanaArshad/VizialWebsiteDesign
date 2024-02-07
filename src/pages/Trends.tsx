@@ -36,19 +36,6 @@ const Trends: FunctionComponent<TrendsType> = ({ onClose }) => {
   const [isSafetyRatingInfoPopupOpen, setSafetyRatingInfoPopupOpen] =
     useState(false);
   const navigate = useNavigate();
-  const dropdownLinegraphTrendsOpen = Boolean(dropdownLinegraphTrendsAnchorEl);
-  const handleDropdownLinegraphTrendsClick = (
-    event: React.MouseEvent<HTMLElement>
-  ) => {
-    setDropdownLinegraphTrendsAnchorEl(event.currentTarget);
-  };
-  const handleDropdownLinegraphTrendsMenuItemClick = (index: number) => {
-    setDropdownLinegraphTrendsSelectedIndex(index);
-    setDropdownLinegraphTrendsAnchorEl(null);
-  };
-  const handleDropdownLinegraphTrendsClose = () => {
-    setDropdownLinegraphTrendsAnchorEl(null);
-  };
 
   const openNotificationPopUp = useCallback(() => {
     setNotificationPopUpOpen(true);
@@ -142,6 +129,8 @@ const Trends: FunctionComponent<TrendsType> = ({ onClose }) => {
 
   return (
     <>
+  
+
       <div className={styles.trends}>
         <div className={styles.topbarMapp2Level3}>
           <div className={styles.topbarMapp2Level3Child} />
@@ -334,7 +323,9 @@ const Trends: FunctionComponent<TrendsType> = ({ onClose }) => {
               >{`Pedestrian activity is high on Thursday, Friday and Saturday’s. `}</p>
             </div>
             <img className={styles.vectorIcon8} alt="" src="/vector.svg" />
+            
             <div className={styles.linegraphAnalysis}>
+              
               <div className={styles.linegraphAnalysisChild} />
               <div className={styles.dropdownLinegraphTrends}>
                 
@@ -349,7 +340,7 @@ const Trends: FunctionComponent<TrendsType> = ({ onClose }) => {
                 <div className={styles.averageAcrossPubs}>
                   Average across pubs
                 </div>
-                <div className={styles.irishPub}>Market Tarern</div>
+                <div className={styles.irishPub}>Market Tavern</div>
                 <div className={styles.benchLineSingapore}>
                   Bench line (Wellington)
                 </div>
@@ -409,6 +400,7 @@ const Trends: FunctionComponent<TrendsType> = ({ onClose }) => {
               >{`Violence at the Irish Pub is above the benchmark and average for another pubs in the area. `}</p>
             </div>
             <div className={styles.lineGraphAi}>Line graph AI trends</div>
+            
             <div className={styles.safetykpiTrends}>
               <div className={styles.bargraphTrendsChild} />
               <b className={styles.safetyRatings}>Safety Ratings</b>
@@ -524,10 +516,70 @@ const Trends: FunctionComponent<TrendsType> = ({ onClose }) => {
               </Select>
               <FormHelperText />
             </FormControl>
+            <FormControl
+              className={styles.factorsParent1}
+              variant="outlined"
+              sx={{
+                borderRadius: "0px 0px 0px 0px",
+                width: "167px",
+                height: "51px",
+                m: 0,
+                p: 0,
+                "& .MuiInputBase-root": {
+                  m: 0,
+                  p: 0,
+                  minHeight: "51px",
+                  justifyContent: "center",
+                  display: "inline-flex",
+                },
+                "& .MuiInputLabel-root": {
+                  m: 0,
+                  p: 0,
+                  minHeight: "51px",
+                  display: "inline-flex",
+                },
+                "& .MuiMenuItem-root": {
+                  m: 0,
+                  p: 0,
+                  height: "51px",
+                  display: "inline-flex",
+                },
+                "& .MuiSelect-select": {
+                  m: 0,
+                  p: 0,
+                  height: "51px",
+                  alignItems: "center",
+                  display: "inline-flex",
+                },
+                "& .MuiInput-input": { m: 0, p: 0 },
+                "& .MuiInputBase-input": {
+                  textAlign: "left",
+                  p: "0 !important",
+                },
+                marginTop: "560px",
+                marginLeft: "570px"
+              }}
+            >
+              <InputLabel color="primary">Factors</InputLabel>
+              <Select
+                color="primary"
+                size="small"
+                label="Factors"
+                disableUnderline
+                displayEmpty
+              >
+                <MenuItem value="Pedestrians">Pedestrians</MenuItem>
+                <MenuItem value="Substances">Substances</MenuItem>
+                <MenuItem value="Violence">Violence</MenuItem>
+                <MenuItem value="Weapons">Weapons</MenuItem>
+              </Select>
+              <FormHelperText />
+            </FormControl>
+
             <div className={styles.demographicTrends}>
               <div className={styles.demographicTrendsChild} />
               <b className={styles.demographicsSurryHills}>
-                Demographics: Surry Hills
+                Demographics: Market Tavern
               </b>
               <div className={styles.genderMale582Container}>
                 <p className={styles.averageFrequencyOf}>Gender</p>
@@ -561,10 +613,10 @@ const Trends: FunctionComponent<TrendsType> = ({ onClose }) => {
                   Wednesday,
                 </p>
                 </div>
-  <div className={styles.moreInfoContainer}>
-    <p className={styles.moreInfo}>MoreInfo</p>
-    <div className={styles.arrowIcon}></div>
-    <img className={styles.vectorIcon50} alt="" src="/Vectorblack.svg" />
+                <div className={styles.moreInfoContainer}>
+                  <p className={styles.moreInfo}>MoreInfo</p>
+                  <div className={styles.arrowIcon}></div>
+                  <img className={styles.vectorIcon50} alt="" src="/Vectorblack.svg" />
               </div>
               <b className={styles.aiGeneratedSuggestions}>
 

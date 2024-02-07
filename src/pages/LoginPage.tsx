@@ -18,7 +18,7 @@ const LoginPage: FunctionComponent = () => {
     <div className={styles.loginpage}>
       <img className={styles.backgroundIcon} alt="" src="/background@2x.png" />
       <div className={styles.title}>
-        <h1 className={styles.toBeChanged}>To be changed</h1>
+        <h1 className={styles.toBeChanged}>Safety After Dark</h1>
       </div>
       <TextField
         className={styles.inputEmailLogin}

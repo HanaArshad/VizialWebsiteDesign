@@ -46,9 +46,6 @@ const MapPage2Level1: FunctionComponent = () => {
     navigate("/map-page-level-3");
   }, [navigate]);
 
-  const onAllElementsSideBarMapP2L2ContainerClick = useCallback(() => {
-    navigate("/policy-comparison");
-  }, [navigate]);
 
   const openLogoutPopup = useCallback(() => {
     setLogoutPopupOpen(true);
@@ -134,7 +131,7 @@ const MapPage2Level1: FunctionComponent = () => {
         </div>
         <div
           className={styles.allelementssidebarMapp2L2}
-          onClick={onAllElementsSideBarMapP2L2ContainerClick}
+         
         >
           <div className={styles.sidebarMapp2L2} />
           <button className={styles.logoutMapp2L2} onClick={openLogoutPopup}>

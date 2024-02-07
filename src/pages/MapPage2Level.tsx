@@ -55,18 +55,6 @@ const MapPage2Level: FunctionComponent = () => {
     setLogoutPopupOpen(false);
   }, []);
 
-  const onWarningsMapP2L1Click = useCallback(() => {
-    navigate("/warnings-page-1");
-  }, [navigate]);
-
-  const onHomeMapP2L1Click = useCallback(() => {
-    navigate("/dashboard");
-  }, [navigate]);
-
-  const openLogoutPopup1 = useCallback(() => {
-    setLogoutPopup1Open(true);
-  }, []);
-
   const closeLogoutPopup1 = useCallback(() => {
     setLogoutPopup1Open(false);
   }, []);

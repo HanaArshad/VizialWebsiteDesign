@@ -763,45 +763,61 @@
 .legendLinegraphTrendsItem {
   position: absolute;
   height: 75.12%;
-  width: 4.59%;
+
   top: 14.35%;
   bottom: 10.53%;
   border-radius: 50%;
 }
 .legendLinegraphTrendsChild {
+  width: 10px;
+  height: 10px;
   right: 62.63%;
-  left: 32.77%;
+  margin-top: 40px;
+  left: -0.6%;
   background-color: var(--color-slateblue-100);
 }
 .legendLinegraphTrendsInner,
 .legendLinegraphTrendsItem {
+  width: 10px;
+  height: 10px;
   right: 26.65%;
-  left: 68.76%;
+  left: -0.2%;
+  top: 24px;
   background-color: #18a0fb;
 }
 .legendLinegraphTrendsInner {
+  width: 10px;
+  height: 10px;
   right: 95.41%;
   left: 0;
+  top: 4px;
   background-color: #f01717;
 }
 .averageAcrossPubs {
-  left: 39.48%;
+  left: 6.71%;
+  margin-top: 38px;
+
+
 }
 .averageAcrossPubs,
 .benchLineSingapore,
 .irishPub {
   position: absolute;
   height: 100%;
-  width: 24.54%;
+  width: 260.54%;
   top: 0;
   display: inline-block;
 }
 .irishPub {
   left: 6.71%;
+  width: 150px;
   color: #f91e00;
 }
 .benchLineSingapore {
-  left: 75.43%;
+  left: 6.71%;
+  width: 150px;
+  color: #18a0fb;
+  top: 20px;
 }
 .legendLinegraphTrends {
   position: absolute;
@@ -1441,7 +1457,7 @@
   right: 0;
   bottom: -73.15%;
   left: 73.98%;
-  font-size: var(--font-size-mid);
+  font-size: 16px;
 }
 .aiGeneratedSuggestions,
 .deploySecurityPresenceContainer {

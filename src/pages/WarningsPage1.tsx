@@ -9,6 +9,8 @@ import { useNavigate } from "react-router-dom";
 import styles from "./WarningsPage1.module.css";
 import SearchBar from "./SearchBar";
 
+
+
 type WarningsPage1Type = {
   onClose?: () => void;
 };
