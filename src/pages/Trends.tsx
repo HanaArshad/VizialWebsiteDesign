@@ -403,7 +403,7 @@ const Trends: FunctionComponent<TrendsType> = ({ onClose }) => {
             
             <div className={styles.safetykpiTrends}>
               <div className={styles.bargraphTrendsChild} />
-              <b className={styles.safetyRatings}>Safety Ratings</b>
+              <b className={styles.safetyRatings}>Safety KPI</b>
               <div className={styles.incidentsPerPedestrianContainer}>
                 <p className={styles.averageFrequencyOf}>
                   <span>
