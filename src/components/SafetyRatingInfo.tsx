@@ -15,23 +15,24 @@ const SafetyRatingInfo: FunctionComponent<SafetyRatingInfoType> = ({
       <div className={styles.infrastructureHighContainer}>
         <p className={styles.infrastructure}>
           <b>Infrastructure</b>
+          (based on external survey)
         </p>
         <p className={styles.infrastructure}>
           <span>
             <span className={styles.high1}>High</span>
-            <span>: ......</span>
+            <span>: 80% of infrastructure has statisfactory cleanliness and quality</span>
           </span>
         </p>
         <p className={styles.infrastructure}>
           <span>
             <span className={styles.medium1}>Medium</span>
-            <span>: ....</span>
+            <span>: 60% of infrastructure has statisfactory cleanliness and quality</span>
           </span>
         </p>
         <p className={styles.infrastructure}>
           <span>
             <span className={styles.low1}>Low</span>
-            <span>: ....</span>
+            <span>: 40% of infrastructure has statisfactory cleaniness and quality</span>
           </span>
         </p>
       </div>
