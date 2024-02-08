@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import styles from "./MapPage2Level2.module.css";
 import { MapComponent } from "../Map/Map_level3";
 import { useAiOutput } from '../backend_connection/AiOutputContext';
+import { aiOuputMD } from "../Map/ManualData"; //**For manually added data, if want you want to use algorithm then delete */
 
 const MapPage2Level2: FunctionComponent = () => {
   const [isNotificationPopUpOpen, setNotificationPopUpOpen] = useState(false);
@@ -123,9 +124,10 @@ const MapPage2Level2: FunctionComponent = () => {
           alt=""
           src="/imagemap-mapp2@2x.png"
         />
+        /* For manually added data, if want you want to use algorithm then delete aiOuputMD replace with aiOutput*/
         <div className={styles.headerbarMapp2Level3}>
           <div className={styles.mapComponent}>
-            <MapComponent aiOutput={aiOutput}/>
+            <MapComponent aiOutput={aiOuputMD}/>
           </div>
           <div className={styles.headerbarMapp2Level3Child} />
           <b className={styles.safetyLevelMap}>Safety Level Map</b>
