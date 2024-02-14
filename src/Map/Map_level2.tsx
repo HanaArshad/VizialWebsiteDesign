@@ -123,7 +123,7 @@ export const MapComponent: React.FC<MapComponentProps> = ({ aiOutput }) => {
   const { isLoaded, loadError } = useJsApiLoader({
     id: 'google-map-script',
     //ADD API KEY BELOW WITHIN QUOTATION MARKS
-    googleMapsApiKey: "AIzaSyBTiTnwUxT-vPWNZqsCYk82ayJyrxygAn0",
+    googleMapsApiKey: "",
   });
 
   if (loadError) {
